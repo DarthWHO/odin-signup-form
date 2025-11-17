@@ -3,13 +3,100 @@
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>Odin Calculator</title>
+    <title>Odin Signup Form</title>
     <meta name="description" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
+    <div class="main">
+      <div class="left-images">
+        <div class="main-image">
+          <img
+            src="halie-west-25xggax4bSA-unsplash.jpg"
+            alt="leaves and sunlight"
+          />
+        </div>
+        <div class="odin-logo">
+          <img src="odin-lined.png" alt="odin logo" />
+        </div>
+      </div>
+      <div class="right-form">
+        <div class="info">
+          <p>
+            This is not a real online service! You know you need something like
+            this in your life to help you realize your deepest dreams. Sign up
+            now to get Started
+          </p>
+          <br />
+          <p>You know you want to.</p>
+        </div>
+        <div class="form-area">
+          <div class="form-title">Let's do this!</div>
+          <form action="#" method="post">
+            <div class="input-container">
+              <div class="form-left">
+                <label for="first-name">First Name</label>
+                <input
+                  type="text"
+                  id="first-name"
+                  name="first-name"
+                  placeholder="First Name"
+                  required
+                />
+                <label for="email">Email Address</label>
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  placeholder="Email Address"
+                  required
+                />
+                <label for="password">Password</label>
+                <input
+                  type="password"
+                  id="password"
+                  name="password"
+                  placeholder="Password"
+                  required
+                />
+              </div>
+              <div class="form-right">
+                <label for="last-name">Last Name</label>
+                <input
+                  type="text"
+                  id="last-name"
+                  name="last-name"
+                  placeholder="Last Name"
+                  required
+                />
+                <label for="phone">Phone Number</label>
+                <input
+                  type="tel"
+                  id="phone"
+                  name="phone"
+                  placeholder="Phone Number"
+                  required
+                />
+                <label for="confirm-password">Confirm Password</label>
+                <input
+                  type="password"
+                  id="confirm-password"
+                  name="confirm-password"
+                  placeholder="Confirm Password"
+                  required
+                />
+              </div>
+            </div>
+            <div class="button-area">
+              <button type="submit">Create Account</button>
+              <p>Already have an account? Log in</p>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
     <script src="script.js" async defer></script>
   </body>
 </html>
